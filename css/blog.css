@@ -3,14 +3,33 @@ body{
     
 }
 
+header li{
+    display: inline-block;
+    margin-right: 3em;
+
+}
+
+#contato li {
+    display: inline-block;
+    margin: 1em;
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
 .identificacao{
     background-color: #579ff0;
     color: #fcfcfd;
+    padding: 7em 2em;
 
 }
 
 .identificacao h1{
     font-size: 2.5em;
+    margin-bottom: 0.7em
 }
 
 .identificacao h2{
@@ -50,4 +69,10 @@ header li a{
 .styleprojetos li a{
   color: #ffffff;
   font-size: 1.3em;
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 45%;
 }
