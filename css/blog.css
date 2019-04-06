@@ -33,6 +33,12 @@ header li a{
     text-transform: uppercase;
 }
 
+header li a:hover{
+    color: gray;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
 header li{
     display: inline-block;
     margin-right: 3em;
@@ -40,7 +46,34 @@ header li{
 
 #contato li {
     display: inline-block;
+}
+
+#contato li a{
+    display: inline-block;
     margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#contato .email{
+    background-image: url("../imagens/icones/email.png");  
+}
+
+#contato .facebook{
+    background-image: url("../imagens/icones/facebook.png");
+}
+
+#contato .twitter{
+    background-image: url("../imagens/icones/twitter.png");
+}
+
+#contato .github{
+    background-image: url("../imagens/icones/github.png");
+}
+
+#contato .linkedin{
+    background-image: url("../imagens/icones/linkedin.png");
 }
 
 .container {
@@ -123,6 +156,11 @@ header li a{
 
 .projetos-header{
     float: left;
+    width: 30%;
+}
+
+.projetos-header h3{
+    margin-top: 1em;
 }
 
 .styleprojetos{
@@ -140,7 +178,7 @@ header li a{
 .styleprojetos li p{
     color: #fff;
     margin-top: 0.5em;
-    text-align: justify;
+    text-align: justify;    
     line-height: 1.2;
 }
 
@@ -149,8 +187,14 @@ header li a{
   font-size: 1.3em;
 }
 
+.styleprojetos li a:hover{
+    color:  blue;
+    font-size: 1.3em;
+  }
+
 footer {
     padding-top: 1em;
     padding-bottom: 1em;
   
 }
+
