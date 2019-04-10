@@ -7,6 +7,7 @@ body{
     background-image: url('../imagens/fundo2.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: 100%;
 }
 
 a{
@@ -74,16 +75,14 @@ header li{
 }
 
 #contato .email{
-    background-image: url("../imagens/icones/email.png");      
+    background-image: url("../imagens/icones/email.png");     
+   
 }
 
 #contato .facebook{
     background-image: url("../imagens/icones/facebook.png");
 }
 
-#contato .whatsapp{
-    background-image: url("../imagens/icones/whatsapp.png");    
-}
 
 #contato .github{
     background-image: url("../imagens/icones/github.png");
@@ -92,6 +91,8 @@ header li{
 #contato .linkedin{
     background-image: url("../imagens/icones/linkedin.png");
 }
+
+
 
 .container {
     padding-left: 10%;
@@ -116,7 +117,8 @@ section{
 .identificacao h1{
     font-size: 2.5em;
     margin-bottom: 0.7em;
-    color: white;     
+    color: white;  
+    
 }
 
 .identificacao h2{
@@ -174,16 +176,16 @@ header li a{
 }
 
 .projetos-header{    
-    width: 30%;
-       
+    display: inline;
+    justify-content: center;
 }
 
 .projetos-header h3{
-    padding: 2px 16px;
+    padding: 1em;
     background-color: #6f768b; 
+    border-radius: 30px;       
     color: #fff;
-    opacity: 0.8;
-}
+ }
 
 .styleprojetos{
     margin-top: 5em;
