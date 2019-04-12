@@ -1,0 +1,257 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, sans-serif;    
+    background-image: url('../imagens/fundo2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+section img{
+    width: 100%;
+    max-width: 300px;
+}
+
+header{
+    border-bottom: 1px solid #ccc;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+    background-color: #6f768b;
+}
+ header ul{
+     text-align: center;
+ }
+
+header li a{
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;    
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-transform: uppercase;
+    opacity: 0.8;
+  
+}
+
+header li a:hover{
+    background-color: #555555;
+    color: white;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+header li{
+    display: inline-block;
+    margin-right: 3em;
+}
+
+#contato li {
+    display: inline-block;
+}
+
+#contato li a{
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+    
+}
+
+#contato .email{
+    background-image: url("../imagens/icones/email.png");     
+   
+}
+
+#contato .email:hover{
+    background-image: url("../imagens/icones/email.png");     
+    opacity: 0.7;
+}
+
+#contato .facebook{
+    background-image: url("../imagens/icones/facebook.png");
+}
+
+#contato .facebook:hover{
+    background-image: url("../imagens/icones/facebook.png");
+    opacity: 0.7;
+}
+
+
+#contato .github{
+    background-image: url("../imagens/icones/github.png");
+}
+
+#contato .github:hover{
+    background-image: url("../imagens/icones/github.png");
+    opacity: 0.7;
+}
+
+#contato .instagram{
+    background-image: url("../imagens/icones/instagram.png");
+    background-size: 100%;
+}
+
+#contato .instagram:hover{
+    background-image: url("../imagens/icones/instagram.png");
+    opacity: 0.7;
+}
+
+
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.identificacao{
+    background-image: url('../imagens/matrix.gif');
+    background-size: 100% 100%;
+    color: #fcfcfd;
+    padding: 10em 2em 7em;
+
+}
+
+.identificacao h1{
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+    color: white;  
+    
+}
+
+.identificacao h2{
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+section h3{
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+}
+
+header li a{
+    color: black;
+    font-weight: lighter;
+}
+
+
+#sobre p.text {
+    margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#sobre p.bio {
+    color: white;
+    font-size: 1.5em;
+    margin: 1em;
+    width: 50%;
+}
+
+#sobre{
+    position: relative;
+
+}
+
+#sobre img{
+    width: 200px;
+    position: absolute;
+    top: 2em;
+    right: 10%;
+
+}
+
+.escuras{
+    background-color: blue;
+    color: #fcfcfd;
+    text-shadow: #6f768b;
+}
+
+.claras{
+    color: white;
+
+}
+
+.projetos-header{    
+    display: inline;
+    justify-content: center;
+}
+
+.projetos-header h3{
+    padding: 1em;
+    background-color: #6f768b; 
+    border-radius: 30px;       
+    color: #fff;
+ }
+
+.styleprojetos{
+    margin-top: 5em;
+}
+
+.styleprojetos li{
+    background-color: #6f768b;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 30px;      
+}
+
+.styleprojetos li iframe{
+    width: 100%;
+    height: 450px;
+}
+
+.styleprojetos li p{
+    color: #fff;
+    margin-top: 0.5em;
+    text-align: center;    
+    line-height: 1.2;    
+}
+
+.styleprojetos li a{
+  color: #ffffff;
+  font-size: 1.3em;
+}
+
+.styleprojetos li a:hover{
+    color:  blue;
+    font-size: 1.3em;
+}
+
+.styleprojetos li img{    
+    height: 460px;
+    margin: 2em 2em;
+    border-radius: 8px;  
+    display: inline;  
+}
+
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+  
+}
+
