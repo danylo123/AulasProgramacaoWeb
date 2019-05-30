@@ -13,11 +13,11 @@
             <form action="" method="POST">
                 <div class="form-group">
                     <label>Usuário</label>
-                    <input type="text" name="usuario" id="usuario" class="form-control">
+                    <input type="text" name="usuario" id="usuario" class="form-control" required>
                 </div>
                 <div class="form-group">
                     <label>Senha</label>
-                    <input type="password" name="senha" id="senha" class="form-control">
+                    <input type="password" name="senha" id="senha" class="form-control" required>
                 </div>
 
                 <div class="form-group">
