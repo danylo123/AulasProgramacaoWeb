@@ -10,7 +10,7 @@
 <body>
     <div class="container">
         <div class="row justify-content-center bg-light">
-            <form action="" method="POST">
+            <form action="controller/autenticar/autenticar.php" method="POST">
                 <div class="form-group">
                     <label>Usuário</label>
                     <input type="text" name="usuario" id="usuario" class="form-control" required>
